@@ -19,11 +19,6 @@ This project implements a Dark/Light Mode Toggle Switch using HTML, CSS, and Jav
 2. JavaScript changes the website theme.
 3. The selected mode is saved in Local Storage.
 4. When the page reloads, the saved theme is automatically applied.
-# 📂 Project Structure
-├── index.html
-├── style.css
-├── script.js
-└── README.md
 # Future Enhancements
 - Multiple theme colors.
 - System theme detection.
