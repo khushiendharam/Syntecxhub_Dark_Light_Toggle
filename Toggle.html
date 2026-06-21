@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Dark/Light-Toggle Switch</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,300;0,9..144,500;0,9..144,600;1,9..144,500&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body data-theme="light">
+  <div class="stars" id="stars"></div>
+  <main class="wrap">
+    <h1>Pick your <em>sky</em>.</h1>
+    <div class="toggle-area">
+      <button class="sky-toggle" id="skyToggle" role="switch" aria-checked="false" aria-label="Toggle dark mode">
+        <div class="deco">
+          <div class="cloud c1"></div>
+          <div class="cloud c2"></div>
+          <div class="mini-star s1"></div>
+          <div class="mini-star s2"></div>
+          <div class="mini-star s3"></div>
+        </div>
+        <div class="orb">
+          <div class="rays">
+            <span style="width:2px;height:6px;top:-7px;left:16px;"></span>
+            <span style="width:2px;height:6px;bottom:-7px;left:16px;"></span>
+            <span style="width:6px;height:2px;top:16px;left:-7px;"></span>
+            <span style="width:6px;height:2px;top:16px;right:-7px;"></span>
+            <span style="width:2px;height:5px;top:-3px;left:4px;transform:rotate(-45deg);"></span>
+            <span style="width:2px;height:5px;top:-3px;right:4px;transform:rotate(45deg);"></span>
+            <span style="width:2px;height:5px;bottom:-3px;left:4px;transform:rotate(45deg);"></span>
+            <span style="width:2px;height:5px;bottom:-3px;right:4px;transform:rotate(-45deg);"></span>
+          </div>
+          <div class="craters">
+            <span style="width:6px;height:6px;top:6px;left:7px;"></span>
+            <span style="width:4px;height:4px;top:16px;left:16px;"></span>
+            <span style="width:3px;height:3px;top:8px;left:18px;"></span>
+          </div>
+        </div>
+      </button>
+      <span class="toggle-label" id="toggleLabel">Light mode</span>
+    </div>
+  </main>
+<script src="script.js"></script>
+</body>
+</html>
